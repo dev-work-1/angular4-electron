@@ -1,2 +1,2 @@
-# angular4-electron
-angular 4 plus electron setup
+#starter pack with electron, angular4 
+#with electron packager

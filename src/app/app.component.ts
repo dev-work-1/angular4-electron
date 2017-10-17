@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { CoreComponent } from './core/core/core.component';
+import { ConfigModule } from './config/config.module';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  constructor(public configOb: ConfigModule) {}
+   config = this.configOb.getConfig(); 
+   title= this.config.getAppName();
 }
