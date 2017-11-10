@@ -14,7 +14,7 @@ export class ConfigModule {
   constructor() {}
   getConfig(): ConfigMainClass {
     let configInit = new ConfigInitClass('webConfig');
-    let config: ConfigMainClass  = configInit.getConfig(); 
+    let config: ConfigMainClass  = configInit.getConfig();
     return config;
   }
 

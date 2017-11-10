@@ -9,6 +9,6 @@ import { ConfigModule } from './config/config.module';
 })
 export class AppComponent {
   constructor(public configOb: ConfigModule) {}
-   config = this.configOb.getConfig(); 
+   config = this.configOb.getConfig();
    title= this.config.getAppName();
 }

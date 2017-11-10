@@ -7,14 +7,13 @@ export class ConfigWebClass {
     this.init();
   }
 
-  // Anything to initialised custom: will be called automatically
  private init(): void {
     console.log('initilising weconfig data');
-    this.config.setAppName("Webconfig name");
+    this.config.setAppName('Webconfig name');
   }
 
   public getObj(): ConfigMainClass {
-    console.log('initilising weconfig data');
+    console.log('return object');
     return this.config;
   }
 

@@ -5,7 +5,7 @@ export class ConfigMainClass extends ConfigDataClass {
   constructor() {
     super();
   }
-  
+
   public setAppName(name: string): void {
     this.appName = name;
   }

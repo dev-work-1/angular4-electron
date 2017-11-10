@@ -1,12 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {HttpClientModule} from '@angular/common/http';
 // default modules
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // custom modules
 import { CoreModule } from './core/core.module';
-import { ConfigModule } from './config/config.module';
 
 // custom components
 import { AppComponent } from './app.component';
@@ -18,8 +17,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CoreModule,
-    ConfigModule 
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
