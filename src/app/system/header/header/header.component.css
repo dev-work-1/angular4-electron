@@ -1,0 +1,33 @@
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+
+.app-toolbar-filler {
+  flex: 1 1 auto;
+}
+
+.app-toolbar-menu {
+  padding: 0 14px 0 14px;
+  color: white;
+}
+
+
+.side-button {
+  box-shadow: none;
+  user-select: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-button {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px !important;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #ccc;
+  color: grey;
+}

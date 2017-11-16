@@ -5,13 +5,13 @@ import { CoreComponent } from './core/core.component';
 
 import { SystemModule } from '../system/system.module';
 import { ConfigModule } from '../config/config.module';
-// import { SharedModule } from '../shared/shared.module';
+import { CoreRoutingModule } from './core-routing/core-routing.module';
 
 @NgModule({
   imports: [
-   // SharedModule,
     SystemModule,
-    ConfigModule
+    ConfigModule,
+    CoreRoutingModule
   ],
   declarations: [CoreComponent],
   exports: [CoreComponent]

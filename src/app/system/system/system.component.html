@@ -1,4 +1,13 @@
-<app-header></app-header>
-<app-sidenav></app-sidenav>
-<app-body> </app-body>
-<app-footer></app-footer>
+
+<md-sidenav-container fullscreen>
+
+  <md-sidenav #sidenav [disableClose]="false" [mode]="'over'"  class="sidenav">
+      <app-web-sidebar></app-web-sidebar>
+  </md-sidenav>
+
+  <div class="example-sidenav-content">
+    <app-header></app-header>
+    <app-footer></app-footer>
+  </div>
+
+</md-sidenav-container>

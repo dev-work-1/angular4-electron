@@ -9,6 +9,7 @@ import { WidgetsModule } from './widgets/widgets.module';
 
 @NgModule({
   imports: [
+    SharedModule,
     HeaderModule,
     FooterModule,
     BodyModule,
